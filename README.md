@@ -41,17 +41,6 @@ Or specify an output path:
 poetry run python -m src.main --output /path/to/output.db
 ```
 
-## Project Structure
-
-tool-jose-db/
-├── src/
-│   ├── main.py        # Main CLI script
-│   └── db.py          # SQLite helper via SQLAlchemy
-├── README.md
-├── LICENSE
-├── pyproject.toml     # Poetry configuration
-└── .gitignore
-
 ### ✅ `LICENSE` (MIT License)
 
 ```text

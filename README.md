@@ -21,19 +21,25 @@ This tool extracts metadata from the Journal of Open Source Education (JOSE), in
 ```bash
 git clone https://github.com/your-username/tool-jose-db.git
 cd tool-jose-db
+```
 
 2. Install dependencies using Poetry:
 
 ```bash
 poetry install
+```
 
 ## Usage
 
 Run the scraper and save output to jose.db (default):
 
+```bash
 poetry run python -m src.main
+```
 Or specify an output path:
+```bash
 poetry run python -m src.main --output /path/to/output.db
+```
 
 ## Project Structure
 
@@ -70,5 +76,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
